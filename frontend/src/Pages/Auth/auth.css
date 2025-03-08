@@ -1,0 +1,83 @@
+/* Input Container for Form Elements */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding-left: 30px; 
+    padding: 12px; 
+    font-size: 16px; 
+    border-radius: 4px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    background-color: #fff; 
+    color: #333; 
+    outline: none; 
+}
+
+.btnStyleLogin {
+    background-color: #7266f9 !important;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 25%; 
+}
+
+.btnStyleLogin:hover {
+    background-color: #9a6fff !important; 
+    cursor: pointer;
+}
+
+.btnStyleSignUp {
+    background-color: #7266f9 !important; 
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 25%; 
+}
+
+.btnStyleSignUp:hover {
+    background-color: #9a6fff !important; 
+    cursor: pointer;
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.lnk {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.logincont{
+    padding-top: 46px;
+}

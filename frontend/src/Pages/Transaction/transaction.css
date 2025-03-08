@@ -1,0 +1,127 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #e50f0f;
+  margin: 0;
+  padding: 0;
+}
+
+.transaction-detail-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.transaction-card {
+  max-height: 500px;
+}
+
+.transaction-card-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 17px;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #02203d;
+  background-color: #c2e3fd;
+  padding: 8px;
+  border: solid 1px;
+}
+
+.transaction-details {
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #0a0000;
+}
+
+.transaction-details p {
+  margin-bottom: 10px;
+}
+
+.view-details-btn {
+  background-color: #2a2d5a;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.card-body{
+  background-color: #f9fdff;
+}
+
+.view-details-btn:hover {
+  background-color: #E14D7F;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .transaction-card-header {
+    font-size: 1.25rem;
+  }
+
+  .transaction-details {
+    font-size: 0.9rem;
+  }
+
+  .view-details-btn {
+    font-size: 1.1rem;
+  }
+}
+
+/* Styling for the transaction table */
+.transaction-table {
+  border-collapse: separate;
+  width: 100%;
+  margin-top: 20px;
+  color: white; /* Default text color for the table */
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+.transaction-table thead th {
+  background-color: #3d566e; /* Dark background for the header */
+  color: white; /* Ensure header text color is white */
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.transaction-table tbody tr {
+  background-color: #303438; /* Background for body rows */
+  color: white; /* Ensure body rows text color is white */
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #53749f9f;
+}
+
+/* Ensure the text color in the table body is always white */
+.transaction-table tbody td {
+  color: white !important; 
+}
+
+.dltS{
+  background-color: #e50f0f;
+  padding: 10px;
+}
+
+.goback{
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #00479f;
+}
+.goback:hover{
+  background-color: #032d54;
+}
