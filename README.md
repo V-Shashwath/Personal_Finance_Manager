@@ -1,4 +1,4 @@
-# Project Name
+# Personal Finance Manager
 
 This project contains both a **backend** and **frontend** that work together. The backend is a Node.js/Express application, and the frontend is a React application. Below are instructions for setting up and running the project locally.
 
